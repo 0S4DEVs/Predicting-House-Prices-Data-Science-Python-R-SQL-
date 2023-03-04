@@ -1,0 +1,12 @@
+CREATE TABLE customer_churn (
+  customerID INT NOT NULL AUTO_INCREMENT,
+  Gender VARCHAR(10),
+  SeniorCitizen INT,
+  Partner VARCHAR(10),
+  Dependents VARCHAR(10),
+  tenure INT,
+  PhoneService VARCHAR(10),
+  MultipleLines VARCHAR(10),
+  InternetService VARCHAR(20),
+  OnlineSecurity VARCHAR(20),
+  OnlineBackup VARCHAR(20),
